@@ -2,6 +2,7 @@ import { StepTypeEnum, DigestUnitEnum, DigestTypeEnum, DelayTypeEnum, JobStatusE
 import { NotificationStepEntity } from '../notification-template';
 
 export { JobStatusEnum };
+
 export class JobEntity {
   _id: string;
   identifier: string;
